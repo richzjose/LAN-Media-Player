@@ -23,8 +23,52 @@ Seek progress bar
 🎚️ Animated Visualizer
 Smooth bar animation for a lively music player UI.
 
-💎 Modern Glassmorphism UI
-Clean design with gradients, soft shadows, and a responsive card layout.
+# 🚀 How It Works
+1. Backend (Flask)
+
+The Python server:
+
+>Serves the HTML UI
+
+>Lists available songs from /songs
+
+>Streams audio files to connected devices
+
+2. Frontend (HTML/CSS/JS)
+
+The client page:
+
+>Fetches song list
+
+>Plays audio via <audio> element
+
+>Handles playback controls, UI animations, seeking, and active state
+
 
 📱 Mobile-Friendly
 Designed to work perfectly on phones.
+
+
+🧪 Usage
+
+Put music files into the songs/ folder
+
+Run:
+python server.py
+
+
+On startup, you’ll see something like:
+
+Open on your phone:
+http://192.168.x.x:5000
+
+
+
+📌 Requirements
+
+Python 3
+Flask
+Local network connection (same Wi-Fi)
+
+Open that link on your phone and enjoy!
+
